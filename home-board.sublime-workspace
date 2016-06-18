@@ -1,0 +1,1040 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ur",
+				"urlName"
+			],
+			[
+				"im",
+				"imageExists"
+			],
+			[
+				"abe-",
+				"abe-data	abe-data"
+			],
+			[
+				"get",
+				"getResult"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"que",
+				"querySelector"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"fw",
+				"fw-n	font-weight: normal;"
+			],
+			[
+				"bind",
+				"bindEvents"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"query",
+				"querySelectorAll"
+			],
+			[
+				"script",
+				"scripts"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"med",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"v",
+				"visibility"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"tr",
+				"trf	transform"
+			],
+			[
+				"h",
+				"height	Attr"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"out",
+				"outputFile"
+			],
+			[
+				"csv",
+				"csvFileIndex"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"strin",
+				"stringify"
+			],
+			[
+				"file",
+				"fileAttr"
+			],
+			[
+				"enco",
+				"encodeURIComponent"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"slug",
+				"Slugify"
+			],
+			[
+				"slu",
+				"Slugify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/home-board"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/accormag/templates/partials/sidebar.html",
+		"/Applications/MAMP/htdocs/accormag/custom/create.html",
+		"/Applications/MAMP/htdocs/accormag/templates/article_files/magazine/css/magazine/main.css",
+		"/Applications/MAMP/htdocs/accormag/templates/partials/head.html",
+		"/Applications/MAMP/htdocs/accormag/templates/partials/header.html",
+		"/Applications/MAMP/htdocs/accormag/templates/partials/menu.html",
+		"/Applications/MAMP/htdocs/accormag/plugins/recovery/routes/get/create.js",
+		"/Applications/MAMP/htdocs/accormag/custom/create.js",
+		"/Applications/MAMP/htdocs/accormag/hooks/hooks.js",
+		"/Applications/MAMP/htdocs/accormag/custom/create-form-template.html",
+		"/Users/fab/Downloads/update files/custom/create.html",
+		"/Applications/MAMP/htdocs/accormag/custom/create-form-addons.html",
+		"/Applications/MAMP/htdocs/accormag/custom/create-form-tplname.html",
+		"/Applications/MAMP/htdocs/accormag/custom/create-form-folder.html",
+		"/Users/fab/Downloads/update files/hooks/hooks.js",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-craft-1115-5cfa8.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-dance-1115-e4371.json",
+		"/Applications/MAMP/htdocs/abe-ibis/plugins/buildseo/routes/get/create.js",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/destination-new-year-resolution-1115-1050c.json",
+		"/Applications/MAMP/htdocs/snippets/ssh-tunnel.cmd",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/hotels-lugano-visual-14bed.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/did-you-know-brazil-28aa1.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/hotels-basel-visual-c5978.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/hotels-oktoberfest-visual-73786.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/hotels-zurich-visual-d730a.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/hotels-sunnydeals-visual-a87cd.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/hotels-berlin-visual-09794.json",
+		"/Applications/MAMP/htdocs/accormag/data/gb/united-kingdom/magazine/follow-me/sport-rio-f072b.json",
+		"/Applications/MAMP/htdocs/accormag/data/gb/united-kingdom/magazine/follow-me/london-afternoon-tea-experience-d3fce.json",
+		"/Applications/MAMP/htdocs/accormag/data/gb/united-kingdom/magazine/did-you-know/travel-and-cooking-0915-ec49e.json",
+		"/Applications/MAMP/htdocs/accormag/data/gb/united-kingdom/magazine/did-you-know/did-you-know-brazil-07295.json",
+		"/Applications/MAMP/htdocs/accormag/data/gb/united-kingdom/magazine/did-you-know/destination-new-year-resolution-1115-e949c.json",
+		"/Applications/MAMP/htdocs/accormag/data/fr/france/magazine/one-hour-one-day-one-week/bordeaux-vinexpo-2015-8b7b8.json",
+		"/Applications/MAMP/htdocs/accormag/data/fr/france/magazine/follow-me/sport-rio-ad12d.json",
+		"/Applications/MAMP/htdocs/accormag/data/fr/france/magazine/follow-me/blogger-event-lille-70ea8.json",
+		"/Applications/MAMP/htdocs/accormag/data/fr/france/magazine/did-you-know/travel-and-cooking-0915-52d31.json",
+		"/Applications/MAMP/htdocs/accormag/data/fr/france/magazine/did-you-know/did-you-know-brazil-fd8cc.json",
+		"/Applications/MAMP/htdocs/accormag/data/fr/france/magazine/did-you-know/destination-new-year-resolution-1115-f575a.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/follow-me/sport-rio-3d4f5.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/follow-me/blogger-workshop-vienna-29c87.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/travel-and-cooking-0915-6f1a8.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/ice-hockey-world-championship-in-moscow-st-petersburg-00e4d.json",
+		"/Applications/MAMP/htdocs/accormag/plugins/recovery/csv/pages.csv",
+		"/Users/fab/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/fab/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/accormag/data/it/italia/magazine/follow-me/london-80cc9.json",
+		"/Applications/MAMP/htdocs/accormag/data/it/italia/magazine/follow-me/milan-e78ba.json",
+		"/Applications/MAMP/htdocs/accormag/data/it/italia/magazine/follow-me/naples-ae29d.json",
+		"/Applications/MAMP/htdocs/accormag/data/it/italia/magazine/follow-me/paris-e8767.json",
+		"/Applications/MAMP/htdocs/accormag/data/it/italia/magazine/follow-me/venice-2e506.json",
+		"/Applications/MAMP/htdocs/accormag/data/nl/nederland/magazine/follow-me/food-in-hotel-bc494.json",
+		"/Applications/MAMP/htdocs/accormag/data/pt-br/brasil/magazine/did-you-know/tips-tours-in-rio-de-janeiro-cf425.json",
+		"/Applications/MAMP/htdocs/accormag/data/pt-br/brasil/magazine/did-you-know/travel-and-cooking-0915-aa4f5.json",
+		"/Applications/MAMP/htdocs/accormag/data/pt-br/brasil/magazine/did-you-know/what-to-do-rio-de-janeiro-during-games-6e30f.json",
+		"/Applications/MAMP/htdocs/accormag/data/pt-br/brasil/magazine/follow-me/sport-rio-67bc0.json",
+		"/Applications/MAMP/htdocs/accormag/data/ru/russia/magazine/did-you-know/ice-hockey-world-championship-in-moscow-st-petersburg-e7b80.json",
+		"/Applications/MAMP/htdocs/accormag/plugins/recovery/parser/carteExperience.js",
+		"/Applications/MAMP/htdocs/accormag/plugins/recovery/parser/infography.js",
+		"/Applications/MAMP/htdocs/accormag/plugins/recovery/parser/travelInvitation.js",
+		"/Applications/MAMP/htdocs/accormag/plugins/recovery/parser/blogger.js",
+		"/Applications/MAMP/htdocs/accormag/plugins/recovery/parser/imageExists.js",
+		"/Applications/MAMP/htdocs/buildseo/routes/get/create.js",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/destination-new-year-resolution-1115-34a7b.json",
+		"/Applications/MAMP/htdocs/accormag/plugins/recovery/routes/get/build.js",
+		"/Applications/MAMP/htdocs/accormag/site/de/deutschland/magazine/did-you-know/destination-new-year-resolution-1115-34a7b.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/destination-new-year-resolution-1115-d2a79.shtml",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/bangkok-juice-0915-6791f.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-dance-1115-81cef.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-opera-0915-7157f.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-photo-0915-07119.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/big-wheel-attraction-christmas-1115-1ab9d.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/bordeaux-chestnuts-cone-1115-63112.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/brussels-afternoon-tea-0915-0fe50.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/brussels-beer-0915-9735c.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/brussels-christmas-beer-1115-07b0e.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/brussels-eat-gingerbread-1115-5ec45.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/buenos-aires-dance-0915-518ce.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/buenos-aires-football-match-0915-0c91d.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/buenos-aires-teatro-colon-0915-2f95a.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/carnival-germany-d3162.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/chicago-christmas-tree-1115-c0902.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/chicago-iceskating-1115-5151b.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/christmas-dinner-world-1115-382e4.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/christmas-other-experience-1115-fcbda.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/christmas-shopping-1115-07225.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/cities-magic-christmas-1115-92b36.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/citytrips-austria-a8d35.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/copacabana-beach-jogging-0915-8507a.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/cult-film-star-cannes-7ed2d.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/das-loft-vienna-ae48a.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/dubai-dance-1115-476b3.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/dubai-fireworks-1115-06d07.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/festival-cannes-1e512.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/geneva-chimney-fire-1115-d2b25.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/geneva-christmas-tree-1115-f1c1b.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/geneva-photo-0915-3908d.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/hamburg-chimney-fire-1115-99ca8.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/hong-kong-dance-1115-86552.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lille-chestnuts-cone-1115-291a2.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lille-christmas-beer-1115-f28c7.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/london-cafe-0915-dcfe8.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/london-ferris-wheel-1115-bd35e.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/london-halloween-0915-08226.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/london-national-gallery-0915-745b7.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lyon-bocuse-cook-lesson-0915-e9ed4.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lyon-craft-1115-88286.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lyon-wine-tasting-0915-a477e.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/madrid-dance-0915-95e1c.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/madrid-museum-thyssen-bornemisza-0915-f7ff8.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/marseille-magical-show-1115-988be.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/marseilles-football-match-0915-ea647.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/marseilles-museum-0915-92103.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/melbourne-ferris-wheel-1115-7703f.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/melbourne-jogging-0915-bdc63.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/melbourne-musical-0915-8997a.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/melbourne-scuba-diving-0915-495a0.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/mexico-original-decoration-1115-f99d2.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/mexico-traditions-1115-5e9ae.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/montreal-eat-gingerbread-1115-c75ba.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/montreal-santaclaus-1115-12483.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/munich-bavarian-cooking-0915-abdb7.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/munich-beer-0915-4acf7.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/munich-mulled-wine-1115-5ee4b.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/music-events-0915-0d8fa.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/new-york-broadway-musical-0915-2cc5e.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/new-york-christmas-song-1115-14154.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/new-york-halloween-0915-7542c.json",
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/new-york-magical-show-1115-1071d.json"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/accormag/templates",
+			"/Applications/MAMP/htdocs/accormag/data",
+			"/Applications/MAMP/htdocs/accormag/templates",
+			"/Applications/MAMP/htdocs/accormag/data",
+			"/Applications/MAMP/htdocs/accormag/plugins/recovery",
+			"/Applications/MAMP/htdocs/accormag/templates",
+			"/Applications/MAMP/htdocs/accormag/plugins",
+			"/Applications/MAMP/htdocs/accormag/templates",
+			"/Applications/MAMP/htdocs/accormag/plugins",
+			"/Applications/MAMP/htdocs/accormag/plugins/users",
+			"/Applications/MAMP/htdocs/accormag/plugins",
+			"/Applications/MAMP/htdocs/accormag/",
+			"/Applications/MAMP/htdocs/accormag/data/de",
+			"/Applications/MAMP/htdocs/accormag/plugins",
+			"/Applications/MAMP/htdocs/accormag/data/de",
+			"/Applications/MAMP/htdocs/accormag/plugins",
+			"/Applications/MAMP/htdocs/accormag/plugins/gallery",
+			"/Applications/MAMP/htdocs/accormag/templates/article_files/scripts/magazine",
+			"/Applications/MAMP/htdocs/accormag/plugins",
+			"/Applications/MAMP/htdocs/accormag/plugins/gallery/node_modules",
+			"/Applications/MAMP/htdocs/accormag/plugins",
+			"/Applications/MAMP/htdocs/accormag",
+			"/Applications/MAMP/htdocs/one-info-front/src/",
+			"/Applications/MAMP/htdocs/one-info-front/src/views/blocks",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less/blocks",
+			"/Applications/MAMP/htdocs/one-info-front/src/views/blocks",
+			"/Applications/MAMP/htdocs/one-info-front/src",
+			"/Applications/MAMP/htdocs/one-info-front-mocker/mock",
+			"/Applications/MAMP/htdocs/one-info-front/src/views/blocks",
+			"/Applications/MAMP/htdocs/one-info-front-mocker/mock",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/scripts/modules",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less",
+			"/Applications/MAMP/htdocs/one-info-front/src/",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less/",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less/components",
+			"/Applications/MAMP/htdocs/one-info-front/src/views",
+			"/Applications/MAMP/htdocs/one-info-front/src/views/blocks",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less/blocks",
+			"/Applications/MAMP/htdocs/one-info-front/src/",
+			"/Applications/MAMP/htdocs/one-info-front-mocker/mock",
+			"/Applications/MAMP/htdocs/one-info-front/src/",
+			"/Applications/MAMP/htdocs/one-info-front/src/server",
+			"/Applications/MAMP/htdocs/one-info-front-mocker/mock",
+			"/Applications/MAMP/htdocs/one-info-front/src",
+			"/Applications/MAMP/htdocs/one-info-front/",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/scripts",
+			"/Applications/MAMP/htdocs/one-info-front-mocker/mock",
+			"/Applications/MAMP/htdocs/one-info-front/src/",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less",
+			"/Applications/MAMP/htdocs/one-info-front/src/views",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/scripts",
+			"/Applications/MAMP/htdocs/one-info-front,-*/node_modules/*",
+			"/Applications/MAMP/htdocs/one-info-front,-*/dist/*",
+			"/Applications/MAMP/htdocs/one-info-front",
+			"/Applications/MAMP/htdocs/one-info-front/src",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/scripts",
+			"/Applications/MAMP/htdocs/one-info-front/src/",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less",
+			"/Applications/MAMP/htdocs/one-info-front/src/views",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less",
+			"/Applications/MAMP/htdocs/one-info-front/src/views",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less",
+			"/Users/fab/Desktop/team.csv",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets",
+			"/Applications/MAMP/htdocs/one-info-front/src/assets/less",
+			"/Applications/MAMP/htdocs/one-info-front/styleguide",
+			"/Applications/MAMP/htdocs/abe-ibis/partials",
+			"/Applications/MAMP/htdocs/abe-ibis/templates",
+			"/Applications/MAMP/htdocs/abejs",
+			"/Applications/MAMP/htdocs/abe/src/server",
+			"/Applications/MAMP/htdocs/abe/src/server/views",
+			"/Applications/MAMP/htdocs/abe/src/server/public/scripts/",
+			"/Applications/MAMP/htdocs/abe/src/server/public/scripts/modules",
+			"/Applications/MAMP/htdocs/abe/src/server/sass",
+			"/Applications/MAMP/htdocs/abe/src/server/public/scripts",
+			"/Applications/MAMP/htdocs/abe/src/server/",
+			"/Applications/MAMP/htdocs/abe/src/server/public/scripts",
+			"/Applications/MAMP/htdocs/abe/src/server, *.js",
+			"/Applications/MAMP/htdocs/abe-ibis/partials",
+			"/Applications/MAMP/htdocs/abe/src/server/sass",
+			"/Applications/MAMP/htdocs/abe, *.html",
+			"/Applications/MAMP/htdocs/abe",
+			"/Applications/MAMP/htdocs/abe-ibis/partials",
+			"/Applications/MAMP/htdocs/abe/src/server/views",
+			"/Applications/MAMP/htdocs/abe/src/",
+			"/Applications/MAMP/htdocs/abe/src/server/public/scripts",
+			"/Applications/MAMP/htdocs/abe/src/server/views",
+			"/Applications/MAMP/htdocs/abe/src/server/public/scripts",
+			"/Applications/MAMP/htdocs/abe/src/server/views",
+			"/Applications/MAMP/htdocs/abe",
+			"/Applications/MAMP/htdocs/greenbet2016/module",
+			"/Applications/MAMP/htdocs/greenbet2016/, *.less",
+			"/Applications/MAMP/htdocs/greenbet2016/",
+			"/Applications/MAMP/htdocs/greenbet2016/module",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/assets/less",
+			"/Applications/MAMP/htdocs/greenbet2016/design/, *.php",
+			"/Applications/MAMP/htdocs/greenbet2016/design/, *.phtml",
+			"/Applications/MAMP/htdocs/greenbet2016/design/, *.php",
+			"/Applications/MAMP/htdocs/greenbet2016/design/",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/assets/less",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/assets/less",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/assets/less",
+			"/Applications/MAMP/htdocs/greenbet2016/module",
+			"/Applications/MAMP/htdocs/greenbet2016/devops",
+			"/Applications/MAMP/htdocs/greenbet2016/module",
+			"/Applications/MAMP/htdocs/greenbet2016/vendor/playground, *.php",
+			"/Applications/MAMP/htdocs/greenbet2016/vendor/playground",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/, *.phtml",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/assets/less",
+			"/Applications/MAMP/htdocs/greenbet2016/devops/config",
+			"/Applications/MAMP/htdocs/greenbet2016/config",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base, *.less",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base, *.phtml",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken, *.phtml",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/, *.phtml",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/, *.phtml",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/, *.less",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/, *.phtml",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/assets/",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/assets/css",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken",
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/, *.phtml"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/editorial/",
+			"query.tpl",
+			"&",
+			"ajax",
+			"filePath +=",
+			"filePath =",
+			"&",
+			", ",
+			"form",
+			"form-create-accor",
+			"\">",
+			",\n              ",
+			"/option>",
+			"\" >",
+			"<option value",
+			"publish",
+			"\"pagetype\": \"false\",",
+			"\"pagetype\": \"true\",",
+			"hristmas-dinner",
+			"romantic-escape-films",
+			"treats",
+			"sweet-treats'",
+			"carteExperience ",
+			"sydney-family-trip",
+			".shtml",
+			"geneva-chocolate",
+			"articles/cult-film-star-cannes",
+			"cult-film-star-cannes",
+			"festival-cannes",
+			"urlName",
+			"sweet-treats",
+			"http://www.accorhotels.com/gb/content/dream-detector/guide/sweet-treats-0915.shtml",
+			"travelInvitation ",
+			"boryeong-mud-festival-south-korea.shtml",
+			"http://www.accorhotels.com/fr/content/articles/boryeong-mud-festival-south-korea.shtml",
+			"http://www.accorhotels.com/gb/content/articles/thailand-water-festival.shtml",
+			"http://www.accorhotels.com/fr/content/articles/thailand-water-festival.shtml",
+			"http://www.accorhotels.com/fr/content/articles/marseille-trip.shtml",
+			"http://www.accorhotels.com/gb/content/articles/afternoon-tea-london.shtml",
+			"carteExperience ",
+			"start generation",
+			"travelInvitation ",
+			"carteExperience ",
+			"carteExperience http",
+			"christmas-shopping",
+			"sweet-treat",
+			"christmas-other-experience",
+			"cities-magic-christmas",
+			"travelInvitation http",
+			"travelInvitation ",
+			"carteExperience ",
+			"infography http",
+			"blogger ",
+			"blogger",
+			"travelInvitation",
+			"http://www.accorhotels.com/gb/content/dream-detector/experiences/singapore-cocktail-1115.shtml",
+			"http://www.accorhotels.com/",
+			"\nError: options.uri is a required argument\n    at Request.init (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:246:31)\n    at new Request (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:142:8)\n    at request (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/index.js:55:10)\n    at Function.get (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/index.js:63:12)\n    at imageExists.js:5:12\n    at new Promise (/Applications/MAMP/htdocs/abejs/node_modules/babel-polyfill/node_modules/core-js/modules/es6.promise.js:193:7)\n    at imageExists (imageExists.js:4:10)\n    at Request._callback (blogger.js:36:4)\n    at Request.self.callback (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:200:22)\n    at emitTwo (events.js:100:13)\n    at Request.emit (events.js:185:7)\n    at Request.<anonymous> (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:1067:10)\n    at emitOne (events.js:95:20)\n    at Request.emit (events.js:182:7)\n    at IncomingMessage.<anonymous> (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:988:12)\n    at emitNone (events.js:85:20)",
+			"statusCode",
+			"cheerio",
+			"adventure-0915",
+			"/gb/content/infography/hotels-rome-visual.shtml",
+			"Travel invitation;Un jour;http://www.accorhotels.com/gb/content/articles/afternoon-tea-london.shtml;gb;london;food;friends;;",
+			"amsterdam-brown-bar",
+			"/pt-br/content/dream-detector/experiences/rome-memories",
+			"image' tab='sidebar'}\">",
+			"file.",
+			"res.write",
+			"index",
+			"Lines",
+			"lines",
+			"pagetype\": \"false\",",
+			"tolow",
+			"fuck",
+			"parse",
+			"Sur les pas de",
+			";www",
+			"}, {",
+			"Bloggeur",
+			"Bloggeur Event ",
+			"Une heure     ",
+			"Un jour     ;",
+			"carte experience ",
+			";www",
+			"info1",
+			"http://www.accorhotels.com/ru/content/infography/",
+			"\ninfograph",
+			"infograph",
+			"http://www.accorhotels.com",
+			";www.accorhotels.com",
+			"; www.accorhotels.com",
+			";www.accorhotels.com",
+			"infography ol",
+			";www.accorhotels.com/pt",
+			"var oldParent = node.parent || node.root,",
+			"size()",
+			"infography ",
+			";www.accorhotels.com",
+			";www",
+			"carteExperience",
+			"abe_meta",
+			"carteExperience",
+			"contentID",
+			"carteExperienceOld",
+			"\npt-br",
+			"\nde",
+			"\nru",
+			"\nnl",
+			"\nit",
+			"fr\n",
+			"gb\n",
+			"</option>",
+			"<option value=\"",
+			"countr",
+			"one-hour-one",
+			"Une heure",
+			"Une semaine",
+			"Sur les pas de (article blogger)",
+			"le saviez vous (article infographie)",
+			"Un jour",
+			"cate",
+			"logo_lemagazine.png",
+			"tags.css",
+			"tags.css ",
+			"image-item",
+			"/temp",
+			"/scripts/",
+			"6"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/magazine/",
+			"pagetype\": \"article\",",
+			",\n   \"lang\": \"de\",\n  \"abe_meta\": {",
+			"\"pagetype\": \"article\",\n\"abe_meta\": {\n    \"template\"",
+			"padding-spacer-lg;",
+			"\\1\\i",
+			";\\1\\i(100)",
+			";\\1\\i",
+			"\\1\\i(100)",
+			"{{text.review}}",
+			"{{text.set_as_active_revision}}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "home-board.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"page.csv",
+				"plugins/recovery/csv/pages.csv"
+			],
+			[
+				"plugins/recovery/node_modules/cheerio/lib/parse.js",
+				"plugins/recovery/node_modules/cheerio/lib/parse.js"
+			],
+			[
+				"user-input",
+				"accormag/plugins/users/partials/user-input.js"
+			],
+			[
+				"sitesmain",
+				"accormag/site/scripts/magazine/main.js"
+			],
+			[
+				"back",
+				"accormag/plugins/background-image/partials/background-image.js"
+			],
+			[
+				"one-tw",
+				"accormag/plugins/one-two-image/partials/one-two-image.js"
+			],
+			[
+				"sites/main",
+				"accormag/site/scripts/magazine/main.js"
+			],
+			[
+				"create",
+				"accormag/custom/create.js"
+			],
+			[
+				"imagejson",
+				"plugins/gallery/modules/ImageJson.js"
+			],
+			[
+				"smartimage",
+				"plugins/gallery/modules/SmartImage.js"
+			],
+			[
+				"gallery/node_modules/image-size/lib/index.js",
+				"plugins/gallery/node_modules/image-size/lib/index.js"
+			],
+			[
+				"milestonejson",
+				"one-info-front-mocker/mock/article-milestone.json"
+			],
+			[
+				"home",
+				"one-info-front-mocker/mock/home.json"
+			],
+			[
+				"artimile",
+				"one-info-front-mocker/mock/article-milestone.json"
+			],
+			[
+				"mile",
+				"one-info-front-mocker/mock/article-milestone.json"
+			],
+			[
+				"emission-3col",
+				"one-info-front/src/views/blocks/article-emission-3col.html"
+			],
+			[
+				"style.less",
+				"one-info-front/src/assets/less/style.less"
+			],
+			[
+				"article",
+				"one-info-front-mocker/mock/article.json"
+			],
+			[
+				"style",
+				"one-info-front/src/assets/less/style.less"
+			],
+			[
+				"milestone.html",
+				"one-info-front/src/views/blocks/milestone.html"
+			],
+			[
+				"article-emission-3col.html",
+				"one-info-front/dist/views/blocks/article-emission-3col.html"
+			],
+			[
+				"emission-3col.html",
+				"one-info-front/dist/views/blocks/emission-3col.html"
+			],
+			[
+				"article.jsn",
+				"one-info-front-mocker/mock/article.json"
+			],
+			[
+				"views/components/commons/picture",
+				"one-info-front/dist/views/components/commons/picture.html"
+			],
+			[
+				"burger",
+				"one-info-front/src/assets/scripts/modules/burger-menu.js"
+			],
+			[
+				"require",
+				"one-info-front/src/views/components/commons/require.html"
+			],
+			[
+				"pl",
+				"one-info-front/src/assets/scripts/modules/playerwat.js"
+			],
+			[
+				"requi",
+				"one-info-front/src/views/components/commons/require.html"
+			],
+			[
+				"app",
+				"one-info-front/dist/assets/scripts/app.js"
+			],
+			[
+				"ajax",
+				"one-info-front/src/server/controllers/ajax.js"
+			],
+			[
+				"player",
+				"one-info-front/src/assets/scripts/modules/playerwat.js"
+			],
+			[
+				"mpro",
+				"one-info-front/src/assets/scripts/lib/mprogress.js"
+			],
+			[
+				"requir",
+				"one-info-front/dist/views/components/commons/require.html"
+			],
+			[
+				"header-im",
+				"src/views/blocks/header-image.html"
+			],
+			[
+				"playerw",
+				"dist/assets/scripts/modules/playerwat.js"
+			],
+			[
+				"requirehtml",
+				"src/views/components/commons/require.html"
+			],
+			[
+				"reuirehtml",
+				"src/views/components/commons/require.html"
+			],
+			[
+				"node_modules/dustjs-linkedin/lib/compiler.js",
+				"node_modules/dustjs-linkedin/lib/compiler.js"
+			],
+			[
+				"/node_modules/sourcejs/app.js",
+				"node_modules/sourcejs/user/node_modules/sourcejs/app.js"
+			],
+			[
+				"printin",
+				"abe/src/cli/handlebars/abe/printInput.js"
+			],
+			[
+				"printjson",
+				"abe/src/cli/handlebars/utils/printJson.js"
+			],
+			[
+				"editosa",
+				"abe/src/server/public/scripts/modules/EditorSave.js"
+			],
+			[
+				"print",
+				"abe/src/cli/handlebars/abe/printInput.js"
+			],
+			[
+				"appjs",
+				"abe/src/server/app.js"
+			],
+			[
+				"save",
+				"abe/src/cli/controllers/Save.js"
+			],
+			[
+				"title-infography",
+				"partials/title-infography.html"
+			],
+			[
+				"sourceautocomplete",
+				"abe/src/cli/handlebars/abe/sourceAutocomplete.js"
+			],
+			[
+				"fil",
+				"abe/src/cli/helpers/file-attr.js"
+			],
+			[
+				"alert-rules",
+				"heineken/playground-game/partial/alert-rules.phtml"
+			],
+			[
+				"/heineken/service/mission",
+				"module/Heineken/src/Heineken/Service/Mission.php"
+			],
+			[
+				"profil",
+				"heineken/playground-user/user/profile.phtml"
+			],
+			[
+				"head.phtml",
+				"heineken/playground-design/common/head.phtml"
+			],
+			[
+				"footer",
+				"heineken/layout/footer.phtml"
+			],
+			[
+				"module/he",
+				"module/Heineken/src/Heineken/Controller/Frontend/QuizController.php"
+			],
+			[
+				"heineken/playground-game/mission/index.phtml",
+				"heineken/playground-game/mission/index.phtml"
+			],
+			[
+				"resul",
+				"heineken/heineken/quiz/result.phtml"
+			],
+			[
+				"header",
+				"heineken/layout/header.phtml"
+			],
+			[
+				"mon-compte",
+				"heineken/playground-game/mission/custom/mon-compte.phtml"
+			],
+			[
+				"heineken/playground-cms/index/index.phtml",
+				"heineken/playground-cms/index/index.phtml"
+			],
+			[
+				"fileparser",
+				"helpers/file-parser.js"
+			],
+			[
+				"templa",
+				"views/template-engine.html"
+			],
+			[
+				"handlbar",
+				"helpers/handlebars-helper.js"
+			],
+			[
+				"fileattr",
+				"helpers/file-attr.js"
+			],
+			[
+				"controllerindex",
+				"controllers/index.js"
+			],
+			[
+				"page",
+				"controllers/Page.js"
+			],
+			[
+				"abeutil",
+				"helpers/abe-utils.js"
+			],
+			[
+				"csv",
+				"tasks/csvtojson.js"
+			],
+			[
+				"list",
+				"views/admin/list.html"
+			],
+			[
+				"adminjs",
+				"public/scripts/admin.js"
+			],
+			[
+				"hand",
+				"helpers/handlebars-helper.js"
+			],
+			[
+				"templat",
+				"public/scripts/template-engine.js"
+			],
+			[
+				"creaht",
+				"views/admin/create.html"
+			],
+			[
+				"list.html",
+				"views/admin/list.html"
+			],
+			[
+				"hotel-pres-des-halles-pas-cher-l-âme-et-le-ventre-de-paris-1-0084-v",
+				"data/www.ibis.com/fr/editorial/article/hotel-pres-des-halles-pas-cher-l-âme-et-le-ventre-de-paris-1-0084-v2996.json"
+			],
+			[
+				"admin",
+				"public/css/admin.css"
+			],
+			[
+				"admincss",
+				"public/css/admin.css"
+			],
+			[
+				"model/i",
+				"models/i18n.js"
+			],
+			[
+				"csvt",
+				"tasks/csvtojson.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "mam",
+		"selected_items":
+		[
+			[
+				"mam",
+				"/Applications/MAMP/mamp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
