@@ -1,6 +1,6 @@
 .train-wrapper{
   border-bottom: 2px solid #f90;
-  height: calc(100% - 110px);
+  height: 100%;
   width: 40%;
   padding: 2% 3%;
 }

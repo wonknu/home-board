@@ -11,8 +11,8 @@ function Board() {
   					<div className="real-time">
 	  					<Meteo/>
 	  					<Train/>
-	  					<Timer/>
   					</div>
+  					<Timer/>
 	        </div>;
 }
 
