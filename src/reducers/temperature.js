@@ -24,6 +24,7 @@ const initialState = {
 export default function(state = initialState, action) {
   switch (action.type) {
     case actionTypes.WEATHER_SET:
+    	if(action.openweathermap.cod === "404") action = {openweathermap: initialState};
       return setWeather(state, action);
   }
   return state;

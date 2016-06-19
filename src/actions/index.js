@@ -1,9 +1,11 @@
-import { setTracks } from './track';
 import { setWeather } from './temperature';
 import { setTrain } from './train';
+import { setTimer } from './timer';
+import { setClock } from './clock';
 
 export {
-  setTracks,
 	setWeather,
-	setTrain
+	setTrain,
+	setTimer,
+	setClock
 };

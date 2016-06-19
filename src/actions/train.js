@@ -1,9 +1,7 @@
 import * as actionTypes from '../constants/actionTypes';
+import config from '../config/';
 
-const API_KEY = '9b84c413-3cee-41fd-a385-9a8c746a80a6';
 const ROOT_URL = `https://api.sncf.com/v1/coverage/sncf/`;
-const CITY = '87682203'; // https://ressources.data.sncf.com/explore/dataset/sncf-gares-et-arrets-transilien-ile-de-france/
-const METHOD = `/departures?datetime=`;
 
 var dateIso = function () {
   return new Date().toISOString().replace(/-|:/g, '').split('.')[0];
@@ -19,11 +17,11 @@ var humanReadableHour = function (date) {
 
 export function setTrain() {
 	return function (dispatch) {
-    return fetch(`${ROOT_URL}stop_areas/stop_area:OCE:SA:${CITY}${METHOD}${dateIso()}`, {
-          headers: {
-            Authorization: 'Basic ' + btoa(API_KEY)
-          }
-        })
+    return fetch(`${ROOT_URL}stop_areas/stop_area:OCE:SA:${config.TRAIN_CITY}${config.TRAIN_METHOD}${dateIso()}`, {
+        headers: {
+          Authorization: 'Basic ' + btoa(config.TRAIN_API_KEY)
+        }
+      })
       .then(response => response.json())
       .then(json => {
         var deps = json.departures;
@@ -36,7 +34,7 @@ export function setTrain() {
             hour: humanReadableHour(dep.stop_date_time.departure_date_time)
           })
         })
-       dispatch({
+        dispatch({
           type: actionTypes.TRAIN_SET,
           train
         });

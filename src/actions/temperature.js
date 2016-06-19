@@ -1,13 +1,11 @@
 import * as actionTypes from '../constants/actionTypes';
+import config from '../config/';
 
-const API_KEY = '80d1558ba8d87b07698f12c0aa875835';
-const ROOT_URL = `http://api.openweathermap.org/data/2.5/weather?APPID=${API_KEY}`;
-const CITY = 'Bois-le-Roi';
-const LANG = 'fr';
+const ROOT_URL = `http://api.openweathermap.org/data/2.5/weather?APPID=${config.WEATHER_API_KEY}`;
 
 export function setWeather() {
 	return function (dispatch) {
-    return fetch(`${ROOT_URL}&q=${CITY},${LANG}`)
+    return fetch(`${ROOT_URL}&q=${config.WEATHER_CITY},${config.WEATHER_LANG}`)
       .then(response => response.json())
       .then(json => {
         var openweathermap = json;

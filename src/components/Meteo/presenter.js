@@ -18,7 +18,7 @@ var getHours = function (timestamp) {
 
 function Meteo({ openweathermap = {} }) {
   return (
-    <div>
+    <div className="col-xs-6">
     	{
     		openweathermap ?
 		    	<div className="weather">

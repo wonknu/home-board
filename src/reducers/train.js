@@ -12,5 +12,5 @@ export default function(state = initialState, action) {
 
 function setTrain(state, action) {
   const { train } = action;
-  return [ ...state, ...train ];
+  return [ ...train ];
 }

@@ -1,12 +1,14 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
-import track from './track';
 import train from './train';
+import timer from './timer';
+import clock from './clock';
 import temperature from './temperature';
 
 export default combineReducers({
-  track,
   train,
+  clock,
+  timer,
   temperature,
   routing: routerReducer
 });

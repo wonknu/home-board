@@ -6,32 +6,26 @@ import { Provider } from 'react-redux';
 import configureStore from './stores/configureStore';
 import * as actions from './actions';
 import App from './components/App';
-// import Stream from './components/Stream';
+import Board from './components/Board';
 import Meteo from './components/Meteo';
 import Train from './components/Train';
+import Timer from './components/Timer';
+import Clock from './components/Clock';
 import thunk from 'redux-thunk'
 
-const tracks = [
-  {
-    title: 'Some track'
-  },
-  {
-    title: 'Some other track'
-  }
-];
-
 const store = configureStore();
-// store.dispatch(actions.setTracks(tracks));
 
-store.dispatch(actions.setWeather())
-.then(() => {
-  // console.log('Done!');
-});
+var doStore = function () {
+  store.dispatch(actions.setTimer());
+  store.dispatch(actions.setWeather()).then(() => {});
+  store.dispatch(actions.setTrain());
+}
 
-store.dispatch(actions.setTrain())
-.then(() => {
-  // console.log('Done!');
-});
+setInterval(doStore, (5 * 60 * 1000));
+doStore();
+setInterval(function () {
+  store.dispatch(actions.setClock());
+}, 1000);
 
 const history = syncHistoryWithStore(browserHistory, store);
 
@@ -39,9 +33,11 @@ ReactDOM.render(
   <Provider store={store}>
     <Router history={history}>
       <Route path="/" component={App}>
-        <IndexRoute component={Meteo} />
+        <IndexRoute component={Board} />
+        <Route path="/board" component={Board} />
         <Route path="/meteo" component={Meteo} />
         <Route path="/train" component={Train} />
+        <Route path="/train" component={Timer} />
       </Route>
     </Router>
   </Provider>,
