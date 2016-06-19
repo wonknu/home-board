@@ -49,6 +49,16 @@ body{
   padding: 10px;
 }
 
+.table-element .full:nth-child(2n),
+.weather-wrapper .table-element .row:nth-child(2n){
+	background: none;
+}
+
+.table-element .full,
+.weather-wrapper .table-element .row{
+	background: rgba(255, 153, 0, 0.1);
+}
+
 body{
 	background: #000;
 }
