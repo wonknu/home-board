@@ -28,14 +28,14 @@ function Meteo({ openweathermap = {} }) {
 				    		<div className={getIcon(openweathermap.weather[0].id)}></div>
 				    	</div>
 				    	<div className="temperature">
-					    	<div>{parseInt(openweathermap.main.temp - 273)}°C</div>
-					    	<div>
-						    	<div>max {parseInt(openweathermap.main.temp_max - 273)}°C</div>
-						    	<div>min {parseInt(openweathermap.main.temp_min - 273)}°C</div>
+					    	<div className="temperature-now">{parseInt(openweathermap.main.temp - 273)}°C</div>
+					    	<div className="flex">
+						    	<div className="temperature-min">min {parseInt(openweathermap.main.temp_min - 273)}°C&nbsp;/&nbsp;</div>
+						    	<div className="temperature-max">max {parseInt(openweathermap.main.temp_max - 273)}°C</div>
 					    	</div>
 				    	</div>
-			    		<div>Humidité : {openweathermap.main.humidity}%</div>
-				    	<div>Pression atmosphérique : {openweathermap.main.pressure}</div>
+			    		<div className="full">Humidité : {openweathermap.main.humidity}%</div>
+				    	<div className="full">Pression atmosphérique : {openweathermap.main.pressure}</div>
 			    	</div>
 			    	<div>
 			    		<h3>Vent :</h3>

@@ -4,6 +4,7 @@ html,
 body{
 	font-family: 'Varela Round', sans-serif;
 	height: 100%;
+	font-size: 16px;
 }
 .main-container{
 	height: calc(100% - 30px);
@@ -15,10 +16,21 @@ body{
 
 .flex{
 	display: flex;
+  flex-wrap: wrap;
+}
+
+.full{
+	width: 100%;
 }
 
 body{
 	background: #000;
+}
+
+h2{
+	padding-bottom: 30px;
+  font-size: 1.25em;
+  line-height: 1.3em;
 }
 
 .main-container{

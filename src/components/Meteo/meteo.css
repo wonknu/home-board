@@ -6,16 +6,22 @@
   padding: 2% 3%;
 }
 
-.weather h2{
-  padding-bottom: 30px;
-}
-
 .icon{
 	width: 120px;
 }
 
 .temperature{
 	width: calc(100% - 120px);
+  padding-left: 10px;
+}
+
+.temperature-now{
+  font-size: 4rem;
+}
+
+.temperature-min,
+.temperature-max{
+  font-size: 0.6rem;
 }
 
 .wi{
