@@ -2,7 +2,7 @@ import React from 'react';
 
 function Train({ train = [] }) {
   return (
-    <div className="train col-xs-6">
+    <div className="train-wrapper">
     	<h2>Prochain train au départ de Bois le roi :</h2>
     	{
         train.map((tr, key) => {

@@ -3,13 +3,16 @@ import Meteo from '../Meteo';
 import Train from '../Train';
 import Timer from '../Timer';
 import Clock from '../Clock';
+import styles from './board.css';
 
 function Board() {
-  return  <div className="row">
+  return  <div className="">
   					<Clock/>
-  					<Timer/>
-  					<Meteo/>
-  					<Train/>
+  					<div className="real-time">
+	  					<Meteo/>
+	  					<Train/>
+	  					<Timer/>
+  					</div>
 	        </div>;
 }
 

@@ -38,3 +38,6 @@ jspm_packages
 
 # Config
 src/config/index.js
+
+# Generated assets
+dist/assets*

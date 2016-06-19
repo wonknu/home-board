@@ -18,19 +18,22 @@ var getHours = function (timestamp) {
 
 function Meteo({ openweathermap = {} }) {
   return (
-    <div className="col-xs-6">
+    <div className="weather-wrapper">
     	{
     		openweathermap ?
 		    	<div className="weather">
 		    		<h2>Météo {openweathermap.name}</h2>
-			    	<div>
-			    		<h3>Température :</h3>
-				    	<div>
+			    	<div className="flex">
+				    	<div className="icon">
 				    		<div className={getIcon(openweathermap.weather[0].id)}></div>
 				    	</div>
-				    	<div>Temperature : {parseInt(openweathermap.main.temp - 273)}°C</div>
-				    	<div>Temperature max : {parseInt(openweathermap.main.temp_max - 273)}°C</div>
-				    	<div>Temperature min : {parseInt(openweathermap.main.temp_min - 273)}°C</div>
+				    	<div className="temperature">
+					    	<div>{parseInt(openweathermap.main.temp - 273)}°C</div>
+					    	<div>
+						    	<div>max {parseInt(openweathermap.main.temp_max - 273)}°C</div>
+						    	<div>min {parseInt(openweathermap.main.temp_min - 273)}°C</div>
+					    	</div>
+				    	</div>
 			    		<div>Humidité : {openweathermap.main.humidity}%</div>
 				    	<div>Pression atmosphérique : {openweathermap.main.pressure}</div>
 			    	</div>

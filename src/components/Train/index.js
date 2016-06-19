@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Train from './presenter';
 import * as actions from '../../actions';
+import styles from './train.css';
 
 function mapStateToProps(state) {
   const train = state.train;

@@ -1,0 +1,5 @@
+.real-time{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}

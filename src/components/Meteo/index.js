@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Meteo from './presenter';
 import * as actions from '../../actions';
+import styles from './meteo.css';
 
 function mapStateToProps(state) {
   const weather = state.temperature;

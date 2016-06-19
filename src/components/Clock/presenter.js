@@ -2,7 +2,7 @@ import React from 'react';
 
 function Clock({ clock = "" }) {
   return (
-    <div className="col-xs-12">
+    <div className="clock">
     	{clock.clock}
     </div>
   );
