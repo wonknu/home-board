@@ -47,7 +47,7 @@ function Meteo({ openweathermap = {} }) {
 			    			</div>
 			    			<div className="row">
 				    			<div className="cell">Vitesse</div>
-				    			<div className="cell text-right">{openweathermap.wind.speed * 3.6}km/h</div>
+				    			<div className="cell text-right">{parseInt(openweathermap.wind.speed * 3.6)}km/h</div>
 			    			</div>
 			    			<div className="row">
 					    		<div className="cell">Direction du vent</div>

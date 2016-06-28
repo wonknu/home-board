@@ -20,6 +20,10 @@ body{
 	width: 100%;
 }
 
+.inline{
+	display: inline-block;
+}
+
 .table{
 	display: table;
 }
@@ -64,7 +68,7 @@ body{
 }
 
 h2{
-	padding-bottom: 50px;
+	padding-bottom: 35px;
   font-size: 1.25em;
   line-height: 1.3em;
 }
@@ -81,9 +85,6 @@ h2{
 }
 
 .app-wrapper{
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

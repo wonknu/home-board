@@ -15,7 +15,15 @@ export function setClock() {
   var s = date.getSeconds();
   if(s < 10) s = `0${s}`;
 
-  var clock = {clock: `${days[day]} ${d} ${months[month]} ${year} ${h}:${m}:${s}`}
+  var clock = {
+    clock: `${days[day]} ${d} ${months[month]} ${year} ${h}:${m}:${s}`,
+    day: `${days[day]}`,
+    dayNumber: `${d}`,
+    month: `${months[month]}`,
+    year: `${year}`,
+    time: `${h}:${m}`,
+    secondes: `${s}`
+  }
 
 	return {
     type: actionTypes.CLOCK_SET,

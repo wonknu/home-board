@@ -11,6 +11,7 @@ import Meteo from './components/Meteo';
 import Train from './components/Train';
 import Timer from './components/Timer';
 import Clock from './components/Clock';
+import Image from './components/Image';
 import thunk from 'redux-thunk'
 
 const store = configureStore();
@@ -19,7 +20,8 @@ var doStore = function () {
   store.dispatch(actions.setTimer());
   store.dispatch(actions.setWeather()).then(() => {});
   store.dispatch(actions.setTrain());
-}
+  store.dispatch(actions.setImage());
+};
 
 setInterval(doStore, (5 * 60 * 1000));
 doStore();
@@ -37,7 +39,7 @@ ReactDOM.render(
         <Route path="/board" component={Board} />
         <Route path="/meteo" component={Meteo} />
         <Route path="/train" component={Train} />
-        <Route path="/train" component={Timer} />
+        <Route path="/timer" component={Timer} />
       </Route>
     </Router>
   </Provider>,

@@ -9,7 +9,7 @@ function Train({ train = [] }) {
           <div className="row">
     	{
         train.map((tr, key) => {
-          return  <div className="full table">
+          return  <div className="full table" key={key}>
                     <div className="cell">
                       {tr.direction} ({tr.mode})
                     </div>
