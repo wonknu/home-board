@@ -1,18 +1,14 @@
 import React from 'react';
 import Meteo from '../Meteo';
 import Train from '../Train';
-import Timer from '../Timer';
 import Clock from '../Clock';
 import styles from './board.css';
 
 function Board() {
-  return  <div className="">
+  return  <div className="board-wrapper">
   					<Clock/>
-  					<div className="real-time">
-	  					<Meteo/>
-	  					<Train/>
-  					</div>
-  					<Timer/>
+  					<Meteo/>
+  					<Train/>
 	        </div>;
 }
 

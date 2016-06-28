@@ -1,5 +1,38 @@
-.real-time{
-  display: flex;
-  flex-wrap: wrap;
-  height: calc(100% - 96px);
+.board-wrapper{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  flex: 1 auto;
+}
+
+.board-wrapper > *{
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.clock{
+	order: 2;
+  align-self: flex-start;
+}
+
+.weather-wrapper{
+	flex: 2 auto;
+	order: 2;
+  align-self: flex-end;
+}
+
+.train-wrapper{
+	flex: 3 auto;
+	order: 3;
+	align-self: flex-end;
+}
+
+.timer-wrapper{
+	order: 4;
+	text-align: right;
 }
