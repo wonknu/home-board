@@ -41,3 +41,5 @@ src/config/index.js
 
 # Generated assets
 dist/assets*
+dist/bundle.js
+dist/*.svg
