@@ -23,7 +23,7 @@ var doStore = function () {
   store.dispatch(actions.setImage());
 };
 
-setInterval(doStore, (5 * 60 * 1000));
+setInterval(doStore, (2 * 60 * 1000));
 doStore();
 setInterval(function () {
   store.dispatch(actions.setClock());
