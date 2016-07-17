@@ -1,11 +1,10 @@
 .weather-wrapper{
-  height: 100%;
 	width: 60%;
   padding: 2% 3%;
 }
 
 .icon{
-	width: 230px;
+	
 }
 
 .temperature{
@@ -28,7 +27,7 @@
 
 .wi{
   font-size: 110px;
-  padding-left: 40px;
+  padding-left: 30px;
   margin-bottom: 50px;
-  line-height: 124px;
+  line-height: normal;
 }

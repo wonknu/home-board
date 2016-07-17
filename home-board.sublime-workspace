@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-attachment"
+			],
+			[
+				"bx",
+				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
 				"ur",
 				"urlName"
 			],
@@ -135,6 +155,62 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/components/Clock/presenter.js",
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/config/index.js",
+			"settings":
+			{
+				"buffer_size": 366,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/App/index.js",
+			"settings":
+			{
+				"buffer_size": 413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/reducers/image.js",
+			"settings":
+			{
+				"buffer_size": 401,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Meteo/meteo.css",
+			"settings":
+			{
+				"buffer_size": 377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/App/app.css",
+			"settings":
+			{
+				"buffer_size": 1138,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/actions/image.js",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -193,10 +269,82 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/MAMP/htdocs/home-board"
+		"/Applications/MAMP/htdocs/home-board",
+		"/Applications/MAMP/htdocs/home-board/dist",
+		"/Applications/MAMP/htdocs/home-board/src",
+		"/Applications/MAMP/htdocs/home-board/src/actions",
+		"/Applications/MAMP/htdocs/home-board/src/components",
+		"/Applications/MAMP/htdocs/home-board/src/components/App",
+		"/Applications/MAMP/htdocs/home-board/src/components/Image",
+		"/Applications/MAMP/htdocs/home-board/src/components/Meteo",
+		"/Applications/MAMP/htdocs/home-board/src/components/Timer",
+		"/Applications/MAMP/htdocs/home-board/src/components/Train",
+		"/Applications/MAMP/htdocs/home-board/src/config",
+		"/Applications/MAMP/htdocs/home-board/src/constants",
+		"/Applications/MAMP/htdocs/home-board/src/reducers",
+		"/Applications/MAMP/htdocs/home-board/src/stores"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/home-board/.gitignore",
+		"/Applications/MAMP/htdocs/home-board/src/components/Image/image.css",
+		"/Applications/MAMP/htdocs/home-board/src/components/Clock/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Clock/clock.css",
+		"/Applications/MAMP/htdocs/home-board/src/components/App/app.css",
+		"/Applications/MAMP/htdocs/home-board/src/actions/clock.js",
+		"/Applications/MAMP/htdocs/home-board/dist/assets/images/git.keep.html",
+		"/Applications/MAMP/htdocs/home-board/src/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Timer/timer.css",
+		"/Applications/MAMP/htdocs/home-board/src/reducers/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/reducers/image.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Image/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Image/presenter.js",
+		"/Applications/MAMP/htdocs/home-board/src/actions/image.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Meteo/presenter.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Board/board.css",
+		"/Applications/MAMP/htdocs/home-board/src/components/App/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Board/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Train/presenter.js",
+		"/Applications/MAMP/htdocs/home-board/src/actions/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/constants/actionTypes.js",
+		"/Applications/MAMP/htdocs/home-board/home-board.sublime-project",
+		"/Applications/MAMP/htdocs/home-board/src/components/Timer/presenter.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Meteo/meteo.css",
+		"/Applications/MAMP/htdocs/home-board/src/components/Train/train.css",
+		"/Applications/MAMP/htdocs/home-board/dist/index.html",
+		"/Applications/MAMP/htdocs/home-board/src/actions/news.js",
+		"/Applications/MAMP/htdocs/home-board/src/reducers/news.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/News/presenter.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/News/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/News/news.css",
+		"/Applications/MAMP/htdocs/home-board/src/components/Train/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Timer/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Meteo/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Clock/presenter.js",
+		"/Applications/MAMP/htdocs/home-board/src/assets/css/reset.css",
+		"/Applications/MAMP/htdocs/home-board/package.json",
+		"/Applications/MAMP/htdocs/home-board/src/assets/css/weather-icons-wind.min.css",
+		"/Applications/MAMP/htdocs/home-board/webpack.config.js",
+		"/Applications/MAMP/htdocs/abejs/package.json",
+		"/Applications/MAMP/htdocs/home-board/src/actions/temperature.js",
+		"/Applications/MAMP/htdocs/home-board/src/actions/train.js",
+		"/Applications/MAMP/htdocs/home-board/src/config/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/config/index.default.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Clock/spec.js",
+		"/Applications/MAMP/htdocs/home-board/src/reducers/clock.js",
+		"/Applications/MAMP/htdocs/home-board/src/reducers/temperature.js",
+		"/Applications/MAMP/htdocs/home-board/src/reducers/train.js",
+		"/Applications/MAMP/htdocs/home-board/src/stores/configureStore.js",
+		"/Applications/MAMP/htdocs/home-board/src/actions/timer.js",
+		"/Applications/MAMP/htdocs/home-board/src/reducers/timer.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Stream/index.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Meteo/icon.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Stream/presenter.js",
+		"/Applications/MAMP/htdocs/home-board/src/reducers/track.js",
+		"/Applications/MAMP/htdocs/home-board/src/actions/track.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Stream.js",
+		"/Applications/MAMP/htdocs/home-board/src/components/Stream/spec.js",
+		"/Applications/MAMP/htdocs/snippets/ssh-tunnel.cmd",
 		"/Applications/MAMP/htdocs/accormag/templates/partials/sidebar.html",
 		"/Applications/MAMP/htdocs/accormag/custom/create.html",
 		"/Applications/MAMP/htdocs/accormag/templates/article_files/magazine/css/magazine/main.css",
@@ -216,7 +364,6 @@
 		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-dance-1115-e4371.json",
 		"/Applications/MAMP/htdocs/abe-ibis/plugins/buildseo/routes/get/create.js",
 		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/destination-new-year-resolution-1115-1050c.json",
-		"/Applications/MAMP/htdocs/snippets/ssh-tunnel.cmd",
 		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/hotels-lugano-visual-14bed.json",
 		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/did-you-know-brazil-28aa1.json",
 		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/did-you-know/hotels-basel-visual-c5978.json",
@@ -266,75 +413,18 @@
 		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/bangkok-juice-0915-6791f.json",
 		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-dance-1115-81cef.json",
 		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-opera-0915-7157f.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-photo-0915-07119.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/big-wheel-attraction-christmas-1115-1ab9d.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/bordeaux-chestnuts-cone-1115-63112.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/brussels-afternoon-tea-0915-0fe50.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/brussels-beer-0915-9735c.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/brussels-christmas-beer-1115-07b0e.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/brussels-eat-gingerbread-1115-5ec45.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/buenos-aires-dance-0915-518ce.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/buenos-aires-football-match-0915-0c91d.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/buenos-aires-teatro-colon-0915-2f95a.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/carnival-germany-d3162.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/chicago-christmas-tree-1115-c0902.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/chicago-iceskating-1115-5151b.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/christmas-dinner-world-1115-382e4.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/christmas-other-experience-1115-fcbda.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/christmas-shopping-1115-07225.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/cities-magic-christmas-1115-92b36.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/citytrips-austria-a8d35.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/copacabana-beach-jogging-0915-8507a.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/cult-film-star-cannes-7ed2d.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/das-loft-vienna-ae48a.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/dubai-dance-1115-476b3.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/dubai-fireworks-1115-06d07.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/festival-cannes-1e512.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/geneva-chimney-fire-1115-d2b25.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/geneva-christmas-tree-1115-f1c1b.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/geneva-photo-0915-3908d.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/hamburg-chimney-fire-1115-99ca8.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/hong-kong-dance-1115-86552.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lille-chestnuts-cone-1115-291a2.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lille-christmas-beer-1115-f28c7.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/london-cafe-0915-dcfe8.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/london-ferris-wheel-1115-bd35e.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/london-halloween-0915-08226.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/london-national-gallery-0915-745b7.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lyon-bocuse-cook-lesson-0915-e9ed4.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lyon-craft-1115-88286.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/lyon-wine-tasting-0915-a477e.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/madrid-dance-0915-95e1c.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/madrid-museum-thyssen-bornemisza-0915-f7ff8.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/marseille-magical-show-1115-988be.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/marseilles-football-match-0915-ea647.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/marseilles-museum-0915-92103.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/melbourne-ferris-wheel-1115-7703f.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/melbourne-jogging-0915-bdc63.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/melbourne-musical-0915-8997a.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/melbourne-scuba-diving-0915-495a0.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/mexico-original-decoration-1115-f99d2.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/mexico-traditions-1115-5e9ae.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/montreal-eat-gingerbread-1115-c75ba.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/montreal-santaclaus-1115-12483.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/munich-bavarian-cooking-0915-abdb7.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/munich-beer-0915-4acf7.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/munich-mulled-wine-1115-5ee4b.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/music-events-0915-0d8fa.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/new-york-broadway-musical-0915-2cc5e.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/new-york-christmas-song-1115-14154.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/new-york-halloween-0915-7542c.json",
-		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/new-york-magical-show-1115-1071d.json"
+		"/Applications/MAMP/htdocs/accormag/data/de/deutschland/magazine/one-hour-one-day-one-week/berlin-photo-0915-07119.json"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"/Applications/MAMP/htdocs/home-board/src",
 			"/Applications/MAMP/htdocs/accormag/templates",
 			"/Applications/MAMP/htdocs/accormag/data",
 			"/Applications/MAMP/htdocs/accormag/templates",
@@ -461,8 +551,7 @@
 			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/, *.phtml",
 			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/assets/",
 			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken/assets/css",
-			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken",
-			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/, *.phtml"
+			"/Applications/MAMP/htdocs/greenbet2016/design/frontend/default/base/custom/heineken"
 		]
 	},
 	"find_state":
@@ -470,6 +559,102 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"icew",
+			"ice",
+			"fire",
+			"class",
+			"clock",
+			"Clock",
+			"CLOCK_SET",
+			"{ ",
+			"data",
+			"Clock",
+			"clock",
+			"CLOCK_SET",
+			"weather",
+			"Meteo",
+			"240px",
+			"real",
+			"table",
+			"\n			    		</div>\n				    	<div>",
+			"			    		<div>",
+			" className=\"full\"",
+			"&amp;",
+			"temperature",
+			"6",
+			"/weather",
+			"weather",
+			"-i",
+			".css';",
+			"\n;",
+			":\n",
+			"\n;",
+			"stream",
+			"stre",
+			"track",
+			"API_KEY",
+			"=",
+			"API_KEY = '80d1558ba8d87b07698f12c0aa875835'",
+			"\n",
+			".",
+			"—",
+			" ",
+			"time",
+			"Timer",
+			"timer",
+			"setTime",
+			"setTimer",
+			"TIMER_SET",
+			"Timer",
+			"hour",
+			"setTimer",
+			"on setTimer(time)",
+			"time",
+			"time ",
+			"type: actionTypes.TIME_SET,",
+			"setTime",
+			"train",
+			"trac",
+			"TIMER_SET",
+			"time ",
+			"setTracks",
+			"Train",
+			"setTrain",
+			"Meteo",
+			".row {",
+			".row",
+			"{children}",
+			"Meteo",
+			"a.",
+			"this.",
+			"new Date",
+			"h3",
+			" className=\"weather\"",
+			">\n",
+			"temp_",
+			"openweathermap",
+			"temperature",
+			"setTemperature",
+			"TEMPERATURE",
+			"temperature",
+			"main",
+			"\n        ",
+			"setTracks",
+			"tracks",
+			"track",
+			"setTemperature",
+			"temperature",
+			"TEMPERATURE",
+			"temperature",
+			"Meteo",
+			"emperatur",
+			"Stream",
+			"onTemperature",
+			"user",
+			"createStore",
+			"Meto",
+			"temp",
+			"track",
 			"/editorial/",
 			"query.tpl",
 			"&",
@@ -501,103 +686,7 @@
 			"festival-cannes",
 			"urlName",
 			"sweet-treats",
-			"http://www.accorhotels.com/gb/content/dream-detector/guide/sweet-treats-0915.shtml",
-			"travelInvitation ",
-			"boryeong-mud-festival-south-korea.shtml",
-			"http://www.accorhotels.com/fr/content/articles/boryeong-mud-festival-south-korea.shtml",
-			"http://www.accorhotels.com/gb/content/articles/thailand-water-festival.shtml",
-			"http://www.accorhotels.com/fr/content/articles/thailand-water-festival.shtml",
-			"http://www.accorhotels.com/fr/content/articles/marseille-trip.shtml",
-			"http://www.accorhotels.com/gb/content/articles/afternoon-tea-london.shtml",
-			"carteExperience ",
-			"start generation",
-			"travelInvitation ",
-			"carteExperience ",
-			"carteExperience http",
-			"christmas-shopping",
-			"sweet-treat",
-			"christmas-other-experience",
-			"cities-magic-christmas",
-			"travelInvitation http",
-			"travelInvitation ",
-			"carteExperience ",
-			"infography http",
-			"blogger ",
-			"blogger",
-			"travelInvitation",
-			"http://www.accorhotels.com/gb/content/dream-detector/experiences/singapore-cocktail-1115.shtml",
-			"http://www.accorhotels.com/",
-			"\nError: options.uri is a required argument\n    at Request.init (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:246:31)\n    at new Request (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:142:8)\n    at request (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/index.js:55:10)\n    at Function.get (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/index.js:63:12)\n    at imageExists.js:5:12\n    at new Promise (/Applications/MAMP/htdocs/abejs/node_modules/babel-polyfill/node_modules/core-js/modules/es6.promise.js:193:7)\n    at imageExists (imageExists.js:4:10)\n    at Request._callback (blogger.js:36:4)\n    at Request.self.callback (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:200:22)\n    at emitTwo (events.js:100:13)\n    at Request.emit (events.js:185:7)\n    at Request.<anonymous> (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:1067:10)\n    at emitOne (events.js:95:20)\n    at Request.emit (events.js:182:7)\n    at IncomingMessage.<anonymous> (/Applications/MAMP/htdocs/accormag/plugins/recovery/node_modules/request/request.js:988:12)\n    at emitNone (events.js:85:20)",
-			"statusCode",
-			"cheerio",
-			"adventure-0915",
-			"/gb/content/infography/hotels-rome-visual.shtml",
-			"Travel invitation;Un jour;http://www.accorhotels.com/gb/content/articles/afternoon-tea-london.shtml;gb;london;food;friends;;",
-			"amsterdam-brown-bar",
-			"/pt-br/content/dream-detector/experiences/rome-memories",
-			"image' tab='sidebar'}\">",
-			"file.",
-			"res.write",
-			"index",
-			"Lines",
-			"lines",
-			"pagetype\": \"false\",",
-			"tolow",
-			"fuck",
-			"parse",
-			"Sur les pas de",
-			";www",
-			"}, {",
-			"Bloggeur",
-			"Bloggeur Event ",
-			"Une heure     ",
-			"Un jour     ;",
-			"carte experience ",
-			";www",
-			"info1",
-			"http://www.accorhotels.com/ru/content/infography/",
-			"\ninfograph",
-			"infograph",
-			"http://www.accorhotels.com",
-			";www.accorhotels.com",
-			"; www.accorhotels.com",
-			";www.accorhotels.com",
-			"infography ol",
-			";www.accorhotels.com/pt",
-			"var oldParent = node.parent || node.root,",
-			"size()",
-			"infography ",
-			";www.accorhotels.com",
-			";www",
-			"carteExperience",
-			"abe_meta",
-			"carteExperience",
-			"contentID",
-			"carteExperienceOld",
-			"\npt-br",
-			"\nde",
-			"\nru",
-			"\nnl",
-			"\nit",
-			"fr\n",
-			"gb\n",
-			"</option>",
-			"<option value=\"",
-			"countr",
-			"one-hour-one",
-			"Une heure",
-			"Une semaine",
-			"Sur les pas de (article blogger)",
-			"le saviez vous (article infographie)",
-			"Un jour",
-			"cate",
-			"logo_lemagazine.png",
-			"tags.css",
-			"tags.css ",
-			"image-item",
-			"/temp",
-			"/scripts/",
-			"6"
+			"http://www.accorhotels.com/gb/content/dream-detector/guide/sweet-treats-0915.shtml"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -626,8 +715,229 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/components/Clock/presenter.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tabs_extra_last_activated": 1467127907.09,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/config/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tabs_extra_last_activated": 1467269226.21,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/App/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tabs_extra_last_activated": 1467222716.37,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/reducers/image.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tabs_extra_last_activated": 1467127898.27,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/components/Meteo/meteo.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1467128845.41,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/App/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tabs_extra_last_activated": 1467222707.76,
+							"tabs_extra_last_activated_sheet_index": 5,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 722.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/actions/image.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tabs_extra_closing": true,
+							"tabs_extra_last_activated": 1467128734.04,
+							"tabs_extra_last_activated_sheet_index": 6,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1032,7 +1342,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 213.0,
+	"side_bar_width": 176.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

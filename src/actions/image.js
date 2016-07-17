@@ -1,7 +1,7 @@
 import * as actionTypes from '../constants/actionTypes';
 
 export function setImage() {
-  var image = {image: `/assets/images/${parseInt(Math.random() * 15)}.jpg`}
+  var image = {image: `/assets/images/${parseInt(Math.random() * 53)}.jpg`}
 
 
   return function (dispatch) {
@@ -16,8 +16,4 @@ export function setImage() {
 	  sprite.src = image.image;
   };
 
-	// return {
- //    type: actionTypes.IMAGE_SET,
- //    image
- //  };
 }
